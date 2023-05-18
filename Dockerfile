@@ -5,7 +5,7 @@ FROM adoptopenjdk:11-jre-hotspot
 WORKDIR /app
 
 # Copy the executable JAR file into the container
-COPY target/your-app.jar app.jar
+COPY target/entrevista.0.0.1.jar app.jar
 
 # Expose the port on which your Spring Boot app listens
 EXPOSE 8080
