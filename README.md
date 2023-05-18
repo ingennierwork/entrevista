@@ -17,6 +17,9 @@ API para entrevista
 * Bcrypt
 * Java 11
 
+## Importante
+* Para los endpoint de usuario se debe colocar el token generado en el header con "Authorization" + "Bearer + token"
+
 # Empezando:
 * el request para el "sign-up" tiene la siguiente forma:
 ```json
